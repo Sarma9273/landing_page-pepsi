@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <title>responsivePepsi landing page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="sec">
+    <header>
+      <a href="#"><img src="logo.png"class="logo"></a>
+      <div class="toggleMenu" onclick="menuToggle()"></div>
+      <ul class="navigation">
+        <li><a href="https://www.pepsi.com/en-us/">Home</a></li>
+        <li><a href="https://www.pepsi.com/en-us/#!products">Products</a></li>
+        <li><a href="https://www.pepsi.com/en-us/pepsi125/">125 YRS journey</a></li>
+        <li><a href="https://www.pepsicoproductfacts.com/">Product facts</a></li>
+        <li><a href="https://contact.pepsico.com/pepsi">Contact us</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="textbox">
+        <h2>That's What <br><span>I like</span></h2>
+        <p>Pepsi is a popular carbonated soft drink known for its refreshing taste. It was first introduced in 1893 and has since become a global brand. Pepsi contains a unique blend of cola flavor, a hint of citrus, and sweeteners to create a distinct and enjoyable beverage. It is widely available worldwide and is a favorite choice among soda lovers.</p>
+        <a href="#">View All Products</a>
+    </div>
+      <div class="imgbox">
+       <img src="pepsi001.png" class="pepsi"> 
+      </div>
+    </div>
+      <ul class="thumb">
+        <li><img src="pepsi001.png" onclick="imgSlider('pepsi001.png');changeBgColor('#0062be')"></li>
+        <li><img src="pepsi002.png" onclick="imgSlider('pepsi002.png');changeBgColor('#e60c2c')"></li>
+        <li><img src="pepsi003.png" onclick="imgSlider('pepsi003.png');changeBgColor('#5e2e2e')"></li>
+      </ul>
+    <ul class="sci">
+      <li><a href="https://www.facebook.com/PepsiIndia/?brand_redir=56381779049"><img src="facebook.png"></a></li>
+      <li><a href="https://www.threads.net/@pepsi"><img src="twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/pepsi"><img src="instagram.png"></a></li>
+  </section>
+  <script type="text/javascript" src="script.js">  </script>
+
+ 
+</body>
+
+</html>
